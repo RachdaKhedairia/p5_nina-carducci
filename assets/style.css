@@ -90,7 +90,7 @@ body {
 	width: 60%;
 	font-size: 16px;
 }
-#gallery {
+#galerie {
 	/*	min-height: 100vh; */
 }
 .title{
@@ -351,7 +351,16 @@ input[type="submit"] {
 		width: 100%;
 	}
 	.picture {
-		width: 80%;
+		width: 50%;
+	}
+	.gallery-items-row {
+	display: column;
+	justify-content: center;
+	align-items: center;
+	}
+	.gallery img {
+		width: 300px;
+		height: 300px;
 	}
 }
 
